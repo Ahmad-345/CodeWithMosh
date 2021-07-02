@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linking CSS</title>
+
+  <!-- embedded stylesheets -->
+  <style>
+    p.embedded {
+      color: orange;
+    }
+  </style> 
+
+  <!-- External Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<!-- inline styles -->
+<body style="font-size: 3rem;">
+
+  <p style="font-weight: bold; color: gray;">Lorem ipsum dolor sit amet.</p>
+  <p class="embedded">Lorem ipsum dolor sit amet.</p>
+  <p class='external'>Lorem ipsum dolor sit amet.</p>
+
+</body>
+</html>

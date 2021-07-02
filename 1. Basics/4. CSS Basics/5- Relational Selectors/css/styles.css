@@ -1,0 +1,17 @@
+body {
+  margin: 10px;
+}
+
+#products  > p {
+  color: hotpink;
+}
+
+#products + p {
+  /* sibling that comes after produncts section */
+  color: yellow;
+}
+
+#products ~ p {
+  /* general siblings of the products section */
+  color: goldenrod;
+}

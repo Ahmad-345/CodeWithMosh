@@ -1,0 +1,92 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=optional');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
+}
+
+.hero {
+  background-image: url("../images/black-sky_w_320.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+
+  /* arrange content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #000;
+  word-spacing: 10px;
+  letter-spacing: -0.1rem;
+  color: #fff;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 1.5rem;
+  font-weight: 300;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin-top: 2.5rem;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: url("../images/black-sky_w_866.jpg");
+  }
+
+  .hero-text {
+    font-size: 3.5rem;
+  }
+
+  .btn {
+    font-size: 2rem;
+  }
+} 
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    background-image: url("../images/black-sky_w_1326.jpg");
+  }
+
+  .hero-text {
+    font-size: 4.5rem;
+  }
+
+  .btn {
+    font-size: 3rem;
+  }
+} 
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    background-image: url("../images/black-sky_w_1400.jpg");
+  }
+
+  .hero-text {
+    font-size: 5rem;
+  }
+
+  .btn {
+    font-size: 3.2rem;
+  }
+} 

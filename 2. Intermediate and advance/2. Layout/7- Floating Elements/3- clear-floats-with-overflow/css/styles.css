@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.tweet {
+  border: 3px solid deeppink;
+
+  /* but with this sometimes get scolls */
+  overflow: auto;
+
+  /* but with this sometimes cotent get clicked */
+  overflow: hidden;
+}
+
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  background-color: gold;
+  float: left;
+  margin-right: 0.5rem;
+}

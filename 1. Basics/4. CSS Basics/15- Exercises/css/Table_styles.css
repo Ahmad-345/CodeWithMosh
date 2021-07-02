@@ -1,0 +1,23 @@
+
+table thead,
+table tfoot {
+  background-color: #427fef;
+  color: #fff;
+}
+
+table,
+table th,
+table td {
+  border-bottom: 1px solid #c4dcf3;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #eef7ff;
+}
+
+tfoot {
+  text-align: left;
+}
+

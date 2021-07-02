@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  /* 3 x 2 */
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px;
+
+  /* shorthand for above */
+  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(2, 100px);
+  
+  /* shorthand for above */
+  grid-template: repeat(3, 100px) / repeat(2, 100px);
+
+  /* these two operate on individual grid items */
+  justify-items: center;
+  align-items: center;
+
+  /* these two operate on grid items as a whole */
+  justify-content: center;
+  align-content: center; /* container is grown enough to fit content */
+  height: 100vh;
+
+  border: 3px solid lightblue;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background-color: pink;
+}

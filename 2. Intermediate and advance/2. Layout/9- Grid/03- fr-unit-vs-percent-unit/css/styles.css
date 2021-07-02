@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  /* absolute values */
+  /* grid-template: repeat(3, 100px) / repeat(2, 100px); */
+  
+  /* relative values */
+  /* grid-template: repeat(3, 100px) / 30% 70%; */
+  
+  /* grid-template: repeat(3, 100px) / 100px 30% 70%; */
+  /* 
+    if we have column with absolute length i-e 100px, grid will grow larger than its container, this is because % is based on on the width
+    on the container. But we need the percentage of the available free space of the container. 
+
+    So, after allocating 100px to the first column we have left with some
+    space left in the container, we want the 30% of that free space, not 30% of the with of the container. For this purpose we use 'fr' unit.
+  */
+  /* grid-template: repeat(3, 100px) / 100px 30fr 70fr; */
+  
+  
+  grid-template: 100px auto 100px / 30fr 70fr;
+  
+  border: 3px solid lightblue;
+  height: 100vh;
+}
+
+.box {
+  /* width: 5rem; */
+  /* height: 5rem; */
+  background-color: pink;
+}

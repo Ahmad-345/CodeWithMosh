@@ -1,0 +1,50 @@
+article .first {
+  font-size: 140%;
+  font-style: italic;
+}
+
+article :first-child {
+  /* a little bit fragile */
+  font-size: 150%;
+  font-weight: bold;
+}
+
+article :first-of-type {
+  /* style will apply to every first occurence of different types. we can fix it. */
+  font-size: 130%;
+  color: cyan;
+}
+
+article p:first-of-type {
+  /* Only the first of elements of type p will get the style */
+  font-size: 130%;
+  color: crimson;
+}
+
+article :last-child {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+article p:last-of-type {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+section ul li:nth-child(odd) {
+  color: deeppink;
+}
+
+section ul li:nth-child(even) {
+  color: deepskyblue;
+}
+
+a:visited,
+a:link {
+  /* link pesudo class will apply to all links */
+  color: dodgerblue;
+}
+
+a:hover, a:focus {
+  color: deeppink;
+}

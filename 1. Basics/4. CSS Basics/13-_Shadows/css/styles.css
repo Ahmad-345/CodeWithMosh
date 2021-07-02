@@ -1,0 +1,24 @@
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: dodgerblue;
+
+  /* property: horizontal_distance,  vertical_distance, blur, color_of_shadow */
+  box-shadow: 10px 10px 30px gray;
+  
+  /* how to put shadow right below the element */
+  box-shadow: 0 0 30px gold;
+}
+
+.box-b {
+  width: 500px;
+  height: 200px;
+  background-color: gold;
+  box-shadow: 0 0 30px gray;
+}
+
+h1 {
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}

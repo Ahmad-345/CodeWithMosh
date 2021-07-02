@@ -1,0 +1,31 @@
+.first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+.second::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+.third::first-line {
+  font-weight: bold;
+}
+
+.third::selection {
+  background-color: pink;
+}
+
+::selection {
+  background-color: pink;
+}
+
+.third::before {
+  content: "...";
+  display: block;
+}
+
+.third::after {
+  content: "...";
+  display: block;
+}

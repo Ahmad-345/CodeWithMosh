@@ -1,0 +1,43 @@
+
+/* 
+  Colors Resresentation
+  _ named colors
+  _ RGB
+  _ HSL
+  _ Hexadecimal
+*/
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: hsl(30, 88%, 52%);
+  background-image: linear-gradient(green, blue);
+
+  background-image: linear-gradient(to right, green, blue);
+  background-image: linear-gradient(to bottom right, green, blue);
+
+  background-image: linear-gradient(45deg, green, blue);
+  background-image: linear-gradient(45deg, green, blue 90%);
+  background-image: linear-gradient(45deg, green, blue 90%);
+  
+  background-image: linear-gradient(45deg, green, blue, tomato);
+}
+
+.box-b {
+  width: 200px;
+  height: 200px;
+  /* CSS also have */
+  background-image: radial-gradient(white, crimson);
+}
+
+.box-c {
+  width: 600px;
+  height: 300px;
+  /* CSS also have */
+  background-image: radial-gradient(circle, white, crimson);
+  background-image: radial-gradient(circle at top left, white, crimson);
+
+  /* created by https://cssgradient.io/ */
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(255,44,44,1) 50%, rgba(252,176,69,1) 100%);
+}

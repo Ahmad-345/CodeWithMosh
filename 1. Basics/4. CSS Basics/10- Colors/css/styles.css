@@ -1,0 +1,19 @@
+
+/* 
+  Colors Resresentation
+  _ named colors
+  _ RGB
+  _ HSL
+  _ Hexadecimal
+*/
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(252, 118, 15);
+  background-color: rgba(252, 118, 15, 0.5);
+
+  background-color: hsl(30, 88%, 52%);
+  background-color: hsl(30deg 88% 52%);
+  background-color: hsla(30, 88%, 52%, 0.5);
+}

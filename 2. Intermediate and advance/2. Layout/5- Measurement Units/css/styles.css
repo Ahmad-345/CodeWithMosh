@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* makes the calculation easier */
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+.box-of-absolute-unit{
+  width: 150px;
+  height: 150px;
+  background-color:  hotpink;
+  border-top: 5px solid purple;
+}
+
+.box-of-relative-unit {
+  /* 50% of the width of the parent element */
+  width: 50%;
+  
+  height: 100%; 
+  /* 
+    The box is not taking the entire height of the window (parent) as expected.
+    This is because the height of the block level elements is 0 by
+    default, or it will take the space (height) to fit the content inside if 
+    it is not set properly.
+  */
+
+  height: 100vh;
+  width: 50vw;
+  background-color:  hotpink;
+  border-top: 5px solid purple;
+}
+
+
+/* Adjust layout according to the font-size */
+.box-of-relative-unit-to-font-size_EM {
+  /* 10 * font size of the current element */
+  /* 10 * 16px = 160px */
+  width: 10em;
+  
+  font-size: 20px;
+  /* 10 * 20px = 200px */
+  width: 10em;
+  
+  height: 100vh;
+  background-color:  hotpink;
+  border-top: 5px solid purple;
+}
+
+.box-of-relative-unit-to-font-size_REM {
+  /* 10 * font size of the root element (html) */
+  /* 10 * 16px = 160px */
+  width: 15rem;
+  
+  height: 100vh;
+  background-color:  hotpink;
+  border-top: 5px solid purple;
+}
+
+.box {
+  width: 15rem;
+  height: 50vh;
+  background-color:  hotpink;
+  border-top: 5px solid purple;
+}

@@ -1,0 +1,36 @@
+
+/* 
+  for small projects we can have a single stylesheet.
+  but for larger scale projects we separate our styles into
+  multiple stylesheets and then combine them together.
+  this where we use CSS pre-processors like SASS, Less
+*/
+
+/* 
+  In case of smaller projects we write our css in one stylesheet
+  but logically separate them into different containers in one stylesheet.
+*/
+
+/* Basic Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {}
+
+body {}
+
+
+/* Typography */
+h1, h2, h3 {}
+
+p {}
+
+
+/* Forms */
+
+
+/* Navigation Bar */
+
+
+/* Footer */

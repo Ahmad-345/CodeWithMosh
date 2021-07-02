@@ -1,0 +1,20 @@
+div.nav > ul.items > li {
+  /* hard to maintian */
+
+  /* specificity: 23 */
+}
+
+
+.nav .items .item {}
+
+.item {
+  background-color: pink;
+} 
+
+.nav .item {
+  background-color: red !important;
+}
+
+.nav .nav-item {
+  background-color: skyblue;
+}

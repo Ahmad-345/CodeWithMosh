@@ -1,0 +1,10 @@
+
+p{
+
+  padding: 10px 20px 10px 20px; /* trbl */
+  padding: 10px 20px; /* tblr: vertical-padding, horizonatl-padding*/
+
+  border: 5px solid gold;
+  padding: 0;
+  margin: 20px;
+}

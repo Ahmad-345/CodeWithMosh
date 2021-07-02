@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic Elements</title>
+  <style>
+
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 1px;
+    }
+
+    .highlight {
+      background-color: crimson;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- 
+    Semantic Elements (Containers)
+    --  article
+    --  figure
+    --  mark
+    --  time
+  --> 
+
+  <article class="article">
+
+    <h1>Heading of the blog</h1>
+    <p>Published <time datetime="2021-01-01 17:00">Juanuary 1st 2021 05:00pm</time></p>
+
+    <p><span class="highlight">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Cumque non aut incidunt expedita laborum! A autem repellat inventore nostrum. Odit.</p>
+
+    <p><mark class="highlight">Mark</mark> is used to hightlight something instead of span this should be used to add more semantic meaning to the html page.</p>
+    
+    <figure>
+      <img src="img/mosh.jpg" alt="">
+      <figcaption>This is figure caption for image</figcaption>
+    </figure>
+
+  </article>
+
+</body>
+</html>

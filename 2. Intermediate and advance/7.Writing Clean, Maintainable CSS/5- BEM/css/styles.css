@@ -1,0 +1,16 @@
+
+/* 
+  BEM
+  Block Element Modifier
+  To think of a web page based on blocks/modules/containers,
+  These blocks can contain elements and can be modified.
+
+  "--" are used to separate a block from a modifier,
+  i-e card card--popular where card is a block and card-popular is modifier.
+
+  "__" are used to separate a block from an element.
+  i-e card and card__header where card is a block and card__header is an element inside card block
+
+  btn doesn't have any pre-fix that is bcz it is an independent element/block can stand outside this 
+  block on its own.
+*/

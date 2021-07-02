@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 5px solid deeppink;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.box {
+  /* set the initial size of the boxes */
+  flex-basis: 8rem;
+
+  /* determine the growth factor of the flex-items */
+  flex-grow: 0; /* default */
+  flex-grow: 1; 
+
+  width: 8rem;
+  height: 8rem;
+  background-color: gold;
+  margin: 1rem;
+  /* this is to look good  */
+  font-size: 3rem;
+  font-family: Tahoma;
+}
+
+.box-one {
+  flex-grow: 2;
+}

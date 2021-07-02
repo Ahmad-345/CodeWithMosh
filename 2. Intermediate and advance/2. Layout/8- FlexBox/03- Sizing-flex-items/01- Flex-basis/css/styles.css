@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 5px solid deeppink;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.box {
+  /* set the initial size of the boxes */
+  flex-basis: auto; /* default */
+  flex-basis: 20rem;
+
+  /*  
+    Now it will translate to the width of the flex-item
+    because we have set flex-direction as row, if the flex-direction is column it will translate into the height and will effect the height.
+  */
+
+  width: 8rem;
+  height: 8rem;
+  background-color: gold;
+  margin: 1rem;
+  /* this is to look good  */
+  font-size: 3rem;
+  font-family: Tahoma;
+}
+
+.box-one {
+  flex-basis: 5rem;
+}

@@ -1,0 +1,23 @@
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: gold;
+
+  /* padding and border will effect the actual size of the box bcz it will add up to the content of the box */
+  padding: 20px;
+  border: 10px solid orange;
+
+  /* margin does not effect the actual size of the box it only moves the box from other elements */
+  margin: 50px;
+
+  /* to rescue this  */
+  box-sizing: border-box;
+}
+
+.span-box {
+  width: 150px;
+  height: 100px;
+  display: inline-block;
+  background-color: crimson;
+}

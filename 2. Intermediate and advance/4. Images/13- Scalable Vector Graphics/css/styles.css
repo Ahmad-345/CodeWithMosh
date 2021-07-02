@@ -1,0 +1,9 @@
+body {
+  background: url("../../images/Bullseye-Gradient.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ufo {
+  width: 100px;
+}

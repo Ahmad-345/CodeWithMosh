@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  
+  /* 1 x font size of the root element (html) */
+  /* 1 x 10px = 10px */
+  font-size: 3rem;
+  
+  /* generally we set it to one and half times of font size */
+  
+  line-height: 1.5rem;
+  /* if we change the font-size of the webpage in future the line-height: will be effected. To avoid this we do not pass any unit to thel line height so the browser can use that number as multiplier to calculate the line height based on our font-size and our layout will be consistent. */
+  line-height: 1.5;
+
+  /* letter-spacing: 1px; */
+  /* word-spacing: 5px; */
+
+
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+h1 {
+  /* top margin should be greater than bottom margin to apply low of proximity */
+  margin: 3.5rem 0 1rem;
+}
+
+/* 
+  the ideal Length 
+  Should be between 50 - 70 characters
+*/
+
+p {
+  /* 
+    'ch' is relative to the width of the '0' character,
+    i-e when we say 50ch it is equalant to 50 zeros, or equalant to the
+    space taken by 50 zeros. This is bcz some charaters like i, 1 take less 
+    space, so if we have 50 zeros it roughly equals to 50 to 70 characters.
+  */
+  width: 50ch;
+}

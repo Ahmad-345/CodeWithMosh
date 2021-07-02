@@ -1,0 +1,37 @@
+body {
+  margin: 10px;
+}
+
+#products {
+  /* Every element can have only one id i-e identifier */
+}
+
+.product {
+  /* Multiple elements can have same class name */
+}
+
+a[target="_blank"] {
+  font-size: 5rem;
+}
+
+a[href="https://google.com"] {
+  /* fregile nature not recommended */
+  color: cadetblue;
+}
+
+a[href*="google"] {
+  /* checks in the attributes if there is anyword matching */
+}
+
+a[href^="https"] {
+  /* starts with a specific value */
+}
+
+a[href$=".com"] {
+  /* ends with a specific value */
+}
+
+a[href^="https"][href$=".com"] {
+  /* condition to check for starting with 'https' and ending with '.com' */
+}
+

@@ -1,0 +1,10 @@
+body {
+  background: url("../../images/Bullseye-Gradient.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon {
+  font-size: 10rem;
+  color: dodgerblue;
+}

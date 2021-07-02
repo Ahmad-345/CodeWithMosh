@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  padding: 2rem;
+}
+
+h1, 
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 5.61rem;
+  margin: 0 0 1rem;
+}
+
+h2 {
+  font-size: 4.209rem;
+  margin: 3.5rem 0 1rem;
+}
+
+h3 {
+  font-size: 3.157rem;
+  margin: 3.5rem 0 1rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+p.lead {
+  font-family: 'Zilla Slab', serif;
+  font-style: italic;
+  font-size: 2.369rem;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+ul,
+ol  {
+  margin-left: 3rem;
+}
+
+ol li {
+  margin-bottom: 2rem;
+}
